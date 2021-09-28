@@ -750,7 +750,7 @@ set_default_parameters(InputInfoPtr pInfo)
     pars->click_action[F3_CLICK1] =
         xf86SetIntOption(opts, "ClickFinger3", clickFinger3);
     pars->circular_scrolling =
-        xf86SetBoolOption(opts, "CircularScrolling", FALSE);
+        xf86SetBoolOption(opts, "CircularScrolling", TRUE);
     pars->circular_trigger = xf86SetIntOption(opts, "CircScrollTrigger", 0);
     pars->palm_detect = xf86SetBoolOption(opts, "PalmDetect", FALSE);
     pars->palm_min_width = xf86SetIntOption(opts, "PalmMinWidth", palmMinWidth);
