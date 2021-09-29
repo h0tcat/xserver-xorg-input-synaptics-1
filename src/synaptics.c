@@ -1063,7 +1063,7 @@ SynapticsReset(SynapticsPrivate * priv)
     priv->horiz_scroll_edge_on = FALSE;
     priv->vert_scroll_twofinger_on = FALSE;
     priv->horiz_scroll_twofinger_on = FALSE;
-    priv->circ_scroll_on = FALSE;
+    priv->circ_scroll_on = TRUE;
     priv->circ_scroll_vert = FALSE;
     priv->mid_emu_state = MBE_OFF;
     priv->lastButtons = 0;
